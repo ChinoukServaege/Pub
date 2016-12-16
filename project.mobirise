@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "chinouk.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -155,7 +155,7 @@
           },
           "title": "<p>&nbsp; &nbsp; RED AND BLUE<br></p>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"redandblue.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
             "P": {
               "color": "#2969b0",
@@ -218,7 +218,7 @@
           },
           "title": "NAKED",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"naked.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
             "H3": {
               "color": "#2969b0",
@@ -281,7 +281,7 @@
           },
           "title": "NATURE EXPOSED",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"natureexposed.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
             "H3": {
               "color": "#2969b0",
@@ -508,8 +508,8 @@
             "showButtons": true
           },
           "title": "CHINOUK SERVAEGE",
-          "text": "Take a look in my drawings.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Red and Blue</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Naked</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Nature exposed</a>"
+          "text": "Take a look in my drawings. More info coming soon.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"redandblue.html\" data-toolbar=\"-mbrBtnMove\">Red and Blue</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Naked</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"natureexposed.html\" data-toolbar=\"-mbrBtnMove\">Nature exposed</a>"
         }
       ]
     }
