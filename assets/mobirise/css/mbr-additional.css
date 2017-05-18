@@ -450,6 +450,14 @@ h6,
 #msg-box5-2 .btn {
   font-size: 14px;
 }
+#social-buttons4-h .mbr-section-title,
+#social-buttons4-h .btn-social {
+  color: #fff;
+}
+#social-buttons4-h .mbr-section-title {
+  font-size: 30px;
+  color: #b37f4e;
+}
 #header3-9 .mbr-section-title,
 #header3-9 .mbr-section-subtitle {
   text-align: center;
@@ -482,4 +490,12 @@ h6,
 }
 #msg-box3-d .lead P {
   color: #685a5a;
+}
+#social-buttons2-g .mbr-section-title,
+#social-buttons2-g .btn-social {
+  color: #232323;
+}
+#social-buttons2-g .mbr-section-title {
+  color: #b37f4e;
+  font-size: 30px;
 }
