@@ -415,6 +415,9 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#footer1-2 P {
+  color: #685a5a;
+}
 #header2-0 .mbr-section-title {
   color: #b37f4e;
   text-align: left;
@@ -453,4 +456,30 @@ h6,
 }
 #header3-9 H3 {
   color: #d2be9d;
+}
+#footer1-5 P {
+  color: #685a5a;
+}
+#header3-c .mbr-section-title,
+#header3-c .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-c H3 {
+  color: #d2be9d;
+}
+#footer1-6 P {
+  color: #685a5a;
+}
+#footer1-7 P {
+  color: #685a5a;
+}
+#msg-box3-d .mbr-section-title,
+#msg-box3-d p {
+  color: #000;
+}
+#msg-box3-d .mbr-section-title {
+  color: #b37f4e;
+}
+#msg-box3-d .lead P {
+  color: #685a5a;
 }

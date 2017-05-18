@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "natureexposed.html",
+    "currentPage": "aboutme.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -45,13 +45,18 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#d1cec2",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Chinouk Servaege"
+          "text": "Copyright (c) 2016 Chinouk Servaege",
+          "_styles": {
+            "P": {
+              "color": "#685a5a"
+            }
+          }
         },
         {
           "_tags": [
@@ -213,7 +218,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
+            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": true
@@ -292,13 +297,18 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#d1cec2",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Chinouk Servaege"
+          "text": "Copyright (c) 2016 Chinouk Servaege",
+          "_styles": {
+            "P": {
+              "color": "#685a5a"
+            }
+          }
         },
         {
           "_inherit": "gallery1",
@@ -412,6 +422,29 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#d2be9d"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "NAKED",
+          "meta": "The human figure in its purest form always got me interested. These are some drawing in which I tried to capture that purity.<br>"
+        },
+        {
           "_name": "footer1",
           "_anchor": "footer1-6",
           "_params": {
@@ -420,13 +453,81 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#d1cec2",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Chinouk Servaege"
+          "text": "Copyright (c) 2016 Chinouk Servaege",
+          "_styles": {
+            "P": {
+              "color": "#685a5a"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/15397598-1159679094087646-1504054792-o-2000x2214-2000x2214-800x885.jpg",
+                "image": "@PROJECT_PATH@/assets/images/15397598-1159679094087646-1504054792-o-2000x2214-2000x2214.jpg",
+                "caption": "Pencil on paper",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-2-2000x2857-800x1142.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-2-2000x2857.jpg",
+                "caption": "Acrylic on paper",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/15417855-1159679087420980-1245328067-o-2000x1049-2000x1049-800x419.jpg",
+                "image": "@PROJECT_PATH@/assets/images/15417855-1159679087420980-1245328067-o-2000x1049-2000x1049.jpg",
+                "caption": "Pencil on paper",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-3-2000x2631-800x1052.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-3-2000x2631.jpg",
+                "caption": "Acrylic on paper",
+                "active": true
+              }
+            ],
+            "spacing": 1,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#d1cec2",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-b",
+          "articleLayout": false,
+          "allItem": "All"
         }
       ]
     },
@@ -445,13 +546,59 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#d1cec2",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Chinouk Servaege"
+          "text": "Copyright (c) 2016 Chinouk Servaege",
+          "_styles": {
+            "P": {
+              "color": "#685a5a"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "color": "#b37f4e"
+            },
+            ".lead P": {
+              "color": "#685a5a"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-d",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#d1cec2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "CHINOUK SERVAEGE",
+          "text": "<p>More coming soon.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         }
       ]
     }
