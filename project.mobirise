@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "natureexposed.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -261,6 +261,29 @@
       },
       "components": [
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#d2be9d"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-9",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "NATURE EXPOSED",
+          "meta": "With this series I'm trying out how to put the power of the nature in drawings, paintings and gravures with different techniques.<br>Nature gives me strenght but also peace which was very inspiring for making this."
+        },
+        {
           "_name": "footer1",
           "_anchor": "footer1-5",
           "_params": {
@@ -276,6 +299,109 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2017 Chinouk Servaege"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foto-1-2000x2759-800x1103.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-1-2000x2759.jpg",
+                "caption": "Acrylic on paper",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-4-2000x2776-800x1110.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-4-2000x2776.jpg",
+                "caption": "Acrylic on paper",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-6-2000x2902-800x1160.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-6-2000x2902.jpg",
+                "caption": "Watercolor and pencil on paper",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-7-2000x2076-800x830.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-7-2000x2076.jpg",
+                "caption": "Watercolor and pencil on paper",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-8-2000x900-800x360.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-8-2000x900.jpg",
+                "caption": "Acrylic on copper",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/thumbnail-foto-5-2000x906-800x362.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thumbnail-foto-5-2000x906.jpg",
+                "caption": "Watercolor on etch",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/15419310-1159679130754309-1589411391-o-2000x1705-2000x1705-800x682.jpg",
+                "image": "@PROJECT_PATH@/assets/images/15419310-1159679130754309-1589411391-o-2000x1705-2000x1705.jpg",
+                "caption": "Mixed media",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/15419474-1159679127420976-1169204140-o-2000x1788-2000x1788-800x715.jpg",
+                "image": "@PROJECT_PATH@/assets/images/15419474-1159679127420976-1169204140-o-2000x1788-2000x1788.jpg",
+                "caption": "Mixed media",
+                "active": false
+              }
+            ],
+            "spacing": 1,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#d1cec2",
+            "filterBgColor": true,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-8",
+          "articleLayout": false,
+          "allItem": "All"
         }
       ]
     },

@@ -447,3 +447,10 @@ h6,
 #msg-box5-2 .btn {
   font-size: 14px;
 }
+#header3-9 .mbr-section-title,
+#header3-9 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-9 H3 {
+  color: #d2be9d;
+}
