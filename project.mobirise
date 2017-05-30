@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "natureexposed.html",
+    "currentPage": "contact.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -296,7 +296,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 Chinouk Servaege"
+          "text": "Copyright (c) 2017 Chinouk Servaege"
         },
         {
           "_inherit": "gallery1",
